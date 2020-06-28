@@ -138,10 +138,10 @@ int winningCondition(string TicTacToe [][5])
 int main()
 {
     srand(time(0));
-    bool True;
     int userPos;
     int cpuPos;
     set<int> position;
+  
     string TicTacToe [5][5] = {{"  "," |","  "," |","  "},
                                 {"---","+","---","+","---"},
                                 {"  "," |","  "," |","  "},
